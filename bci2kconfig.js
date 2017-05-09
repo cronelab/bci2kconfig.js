@@ -8,7 +8,7 @@
 
 // REQUIRES
 
-// (none)
+var $ = require( 'jquery' );
 
 
 // MODULE OBJECT
@@ -227,3 +227,11 @@ BCI2KConfig.CreateConfig = function( callback, input, prompt ) {
         doPrompt( input );
     } );
 }
+
+
+// EXPORT MODULE
+
+module.exports = BCI2KConfig;
+
+
+//
