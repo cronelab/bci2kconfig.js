@@ -1,0 +1,28 @@
+{
+  "name": "bci2kconfig",
+  "version": "0.0.1",
+  "description": "Configuration utility for bci2k.js",
+  "main": "bci2kconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify bci2kconfig.js -o dist/bci2kconfig.js",
+    "build-min": "browserify bci2kconfig.js | uglify -c > dist/bci2kconfig.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronelab/bci2kconfig.js.git"
+  },
+  "keywords": [
+    "BCI2000"
+  ],
+  "author": "CroneLab @ JHU <croneecoglab@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronelab/bci2kconfig.js/issues"
+  },
+  "homepage": "https://github.com/cronelab/bci2kconfig.js#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "uglify": "^0.1.5"
+  }
+}
